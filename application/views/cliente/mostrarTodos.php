@@ -1,3 +1,4 @@
+<a href="<?php echo base_url('fornecedor');?>">Gerenciar Forncedores</a><br><br>
 <?php
 
 echo '<a href="'.base_url('cliente/novo').'">Cadastrar</a><br><br>';

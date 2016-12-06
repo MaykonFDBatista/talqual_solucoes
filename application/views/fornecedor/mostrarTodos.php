@@ -1,3 +1,4 @@
+<a href="<?php echo base_url('cliente');?>">Gerenciar Clientes</a><br><br>
 <?php
 
 echo '<a href="'.base_url('fornecedor/novo').'">Cadastrar</a><br><br>';
