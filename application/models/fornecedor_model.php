@@ -1,7 +1,7 @@
 <?php
-class Cliente_model extends CI_Model{
+class Fornecedor_model extends CI_Model{
     
-    var $tabela = 'cliente';
+    var $tabela = 'fornecedor';
     
     function BuscarTodos() {
     
@@ -21,7 +21,7 @@ class Cliente_model extends CI_Model{
     
     function Excluir($id) {
         
-        $this->db->where('cliId', $id);
+        $this->db->where('forId', $id);
         
         $this->db->delete($this->tabela);
     }
@@ -34,7 +34,7 @@ class Cliente_model extends CI_Model{
     function BuscarPorId($id) {
         
         $this->db->from($this->tabela);
-        $this->db->where('cliId', $id);
+        $this->db->where('forId', $id);
         
         $resultado = $this->db->get();
         
@@ -50,7 +50,7 @@ class Cliente_model extends CI_Model{
     
     function Editar($dados) {
         
-        $this->db->where('cliId', $dados['cliId']);
+        $this->db->where('forId', $dados['forId']);
         $this->db->update($this->tabela, $dados);
     }
 }
