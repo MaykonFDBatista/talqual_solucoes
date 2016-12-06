@@ -1,3 +1,8 @@
+<a href="<?php echo base_url('compra');?>">Compras</a><br>
+<a href="<?php echo base_url('venda');?>">Vendas</a><br>
+<a href="<?php echo base_url('caixa');?>">Caixa</a><br>
+<a href="<?php echo base_url('cliente');?>">Gerenciar Clientes</a><br>
+<a href="<?php echo base_url('fornecedor');?>">Gerenciar Fornecedores</a><br><br>
 <?php 
 
 echo '<h1><p align="center">Caixa da Tal Qual Soluções.</p></h1>';

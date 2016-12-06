@@ -64,6 +64,22 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+$db['producao']['hostname'] = 'localhost';
+$db['producao']['username'] = 'u216321693_tal';
+$db['producao']['password'] = '123456';
+$db['producao']['database'] = 'u216321693_tal';
+$db['producao']['dbdriver'] = 'mysql';
+$db['producao']['dbprefix'] = '';
+$db['producao']['pconnect'] = TRUE;
+$db['producao']['db_debug'] = TRUE;
+$db['producao']['cache_on'] = FALSE;
+$db['producao']['cachedir'] = '';
+$db['producao']['char_set'] = 'utf8';
+$db['producao']['dbcollat'] = 'utf8_general_ci';
+$db['producao']['swap_pre'] = '';
+$db['producao']['autoinit'] = TRUE;
+$db['producao']['stricton'] = FALSE;
+
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

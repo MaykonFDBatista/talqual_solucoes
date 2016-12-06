@@ -1,4 +1,8 @@
-<a href="<?php echo base_url('fornecedor');?>">Gerenciar Forncedores</a><br><br>
+<a href="<?php echo base_url('compra');?>">Compras</a><br>
+<a href="<?php echo base_url('venda');?>">Vendas</a><br>
+<a href="<?php echo base_url('caixa');?>">Caixa</a><br>
+<a href="<?php echo base_url('cliente');?>">Gerenciar Clientes</a><br>
+<a href="<?php echo base_url('fornecedor');?>">Gerenciar Fornecedores</a><br><br>
 <?php
 
 echo '<a href="'.base_url('cliente/novo').'">Cadastrar</a><br><br>';
